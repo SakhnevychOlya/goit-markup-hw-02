@@ -24,7 +24,7 @@ address {
 
 
 
-.header-logo-main{
+.header-logo{
         font-family: Raleway, sans-serif;
         font-weight: 700;
         font-size: 18px;
@@ -50,10 +50,11 @@ address {
 
 .contacts-link{
        
-        font-weight: 400;
+        font-weight: 500;
         font-size: 16px;
         line-height: 150%;
         letter-spacing: 0.02em;
+        color:#434455;
 }
 
 
@@ -90,13 +91,20 @@ address {
         color: #fff;
         background-color: #4d5ae5;
 }
-.hero-button:hover{
+.hero-button:hover
+.hero-button:focus{
     background: #404bbf;
 }
 
 }
 /*Features*/
-
+.feature-title{
+        font-weight: 500;
+        font-size: 20px;
+        line-height: 120%;
+        letter-spacing: 0.02em;
+        color: #2e2f42;
+}
 .features-item-name{
     
         font-weight: 500;
@@ -132,6 +140,7 @@ address {
         letter-spacing: 0.02em;
         text-align: center;
         color: #2e2f42;
+        text-transform: capitalize;
 }
 .team-list-item-name{
        
