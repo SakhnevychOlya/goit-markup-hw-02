@@ -42,11 +42,12 @@ address {
 /* Navigation-menu*/
 .header-menu-item {
         
-        font-weight: 700;
+        font-weight: 500;
         font-size: 16px;
         line-height: 150%;
         letter-spacing: 0.02em;
 }
+
 
 .contacts-link{
        
@@ -60,7 +61,7 @@ address {
 
 .contacts-link,
 .header-menu-link {
-    color: #2e2f42;
+    color: #434455;
 }
 .contacts-link:hover,
 .contacts-link:focus,
@@ -91,7 +92,7 @@ address {
         color: #fff;
         background-color: #4d5ae5;
 }
-.hero-button:hover
+.hero-button:hover,
 .hero-button:focus{
     background: #404bbf;
 }
