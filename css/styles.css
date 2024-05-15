@@ -2,6 +2,7 @@
 body {
     font-family: Roboto, sans-serif;
     background-color: white;
+    color:#434455;
 }
 
 ul {
@@ -13,21 +14,29 @@ a {
 }
 button {
     cursor: pointer;
+}
+address {
+                font-style: normal;
+        }
 
 /* Logo*/
 
-.header-logo {
+
+
+
+.header-logo-main{
         font-family: Raleway, sans-serif;
         font-weight: 700;
         font-size: 18px;
         line-height: 117%;
         letter-spacing: 0.03em;
         text-transform: uppercase;
-        color: #2e2f42;
+        color: #4d5ae5;
+        
 }
 .footer-logo-color,
 .header-logo-color {
-        color: #4d5ae5;
+        color: #2e2f42;
 }
 
 /* Navigation-menu*/
@@ -38,12 +47,12 @@ button {
         line-height: 150%;
         letter-spacing: 0.02em;
 }
-.contacts-item{
+
+.contacts-link{
        
         font-weight: 400;
         font-size: 16px;
         line-height: 150%;
-        font-style: normal;
         letter-spacing: 0.02em;
 }
 
@@ -171,5 +180,9 @@ button {
         line-height: 117%;
         letter-spacing: 0.03em;
         text-transform: uppercase;
-        color: #f4f4fd;
+        color: #4d5ae5;
+}
+.footer-logo-color{
+        color:#f4f4fd;
+        
 }
